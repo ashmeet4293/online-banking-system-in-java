@@ -1,0 +1,143 @@
+<html>
+    <head>
+        <title>SIGN UP</title>
+        <link rel="stylesheet" href="signup.css">
+    </head>
+    <body>
+        <div  class="form">
+
+            <form id="contactform" method="POST" action="signup">
+                <h2><center>FILL THE FORM</h2></center>
+                <p class="contact"><label for="name">Name</label></p>
+                <input id="name" name="name" placeholder="First and last name" required="" tabindex="1" type="text" style="
+                       background-image:url('images/name.jpg');
+                       background-repeat:no-repeat;
+                       background-size: 30px;
+                       background-position:0px;
+                       background-image-position: left;
+                       padding-left: 40px;
+                       " ><br>
+                <p class="contact"><label for="name">Phone Number</label></p>
+                <input id="pnum" name="pnum" placeholder="Phone number" required="" tabindex="1" type="text"  style="
+                       background-image:url('images/phone.jpg');
+                       background-repeat:no-repeat;
+                       background-size: 30px;
+                       background-position:0px;
+                       background-image-position: left;
+                       padding-left: 40px;"><br>
+
+
+                <p class="contact"><label for="name">City</label></p>
+                <input id="city" name="city" placeholder="City" required="" tabindex="1" type="text"  style="
+                       background-image:url('images/city.jpg');
+                       background-repeat:no-repeat;
+                       background-size: 30px;
+                       background-position:0px;
+                       background-image-position: left;
+                       padding-left: 40px;"><br>
+
+                <p class="contact"><label for="name">Local address</label></p>
+                <input id="laddress" name="laddress" placeholder="Local Address" required="" tabindex="1" type="text" style="
+                       background-image:url('images/local.png');
+                       background-repeat:no-repeat;
+                       background-size: 30px;
+                       background-position:0px;
+                       background-image-position: left;
+                       padding-left: 40px;"><br>><br>
+                <p class="contact"><label for="name">Street Line</label></p>
+                <input id="street" name="street" placeholder="Street" required="" tabindex="1" type="text"  style="
+                       background-image:url('images/street.png');
+                       background-repeat:no-repeat;
+                       background-size: 30px;
+                       background-position:0px;
+                       background-image-position: left;
+                       padding-left: 40px;"><br>
+                <p class="contact"><label for="name">Occupation</label></p>
+                <input id="occupation" name="occupation" placeholder="Occupation" required="" tabindex="1" type="text"  style="
+                       background-image:url('images/occupation.png');
+                       background-repeat:no-repeat;
+                       background-size: 30px;
+                       background-position:0px;
+                       background-image-position: left;
+                       padding-left: 40px;"><br>
+                <p class="contact"><label for="email">Email</label></p>
+                <input id="email" name="email" placeholder="example@domain.com" required="" type="email"  style="
+                       background-image:url('images/mail.jpg');
+                       background-repeat:no-repeat;
+                       background-size: 30px;
+                       background-position:0px;
+                       background-image-position: left;
+                       padding-left: 40px;"><br>
+                <label>Choose your Type Of Account:  </label>
+                <select class="select-style gender" name="acctype">
+                    <option value="saving">SAVINGS</option>
+                    <option value="regular">REGULAR</option>
+                    <option value="salary">SALARY</option>
+                </select><br><br>
+                <p class="contact"><label for="name">ID TYPE: </label></p>
+                <select class="select-style gender" name="idtype">
+                    <option value="citizenship">CITIZENSHIP</option>
+                    <option value="passport">PASSPORT</option>
+                    <option value="drivinglicense">DRIVING LICENSE</option>
+                </select><br><br>
+                <p class="contact"><label for="name">GIVEN ID's NUMBER</label></p>
+                <input id="idnum" name="idnum" placeholder="ID Number" required="" type="text"><br>
+                <fieldset>
+                    <label>Birthday</label>
+                    <label class="month">
+                        <select class="select-style" name="BirthMonth">
+                            <option value="">Month</option>
+                            <option  value="01">January</option>
+                            <option value="02">February</option>
+                            <option value="03" >March</option>
+                            <option value="04">April</option>
+                            <option value="05">May</option>
+                            <option value="06">June</option>
+                            <option value="07">July</option>
+                            <option value="08">August</option>
+                            <option value="09">September</option>
+                            <option value="10">October</option>
+                            <option value="11">November</option>
+                            <option value="12" >December</option>
+                    </label>
+                    </select>   
+                    <label>Day<input class="birthday" maxlength="2" name="BirthDay"  placeholder="Day" required=""></label><br>
+                    <label>Year <input class="birthyear" maxlength="4" name="BirthYear" placeholder="Year" required=""></label><br>
+                </fieldset>
+                <label>Gender</label>
+                <select class="select-style gender" name="gender">
+                    <option value="m">Male</option>
+                    <option value="f">Female</option>
+                    <option value="others">Other</option>
+                </select><br><br>
+                <p class="contact"><label for="username">Create a username</label></p>
+                <input id="username" name="username" placeholder="username" required="" type="text" style="
+                       background-image:url('images/username.jpg');
+                       background-repeat:no-repeat;
+                       background-size: 30px;
+                       background-position:0px;
+                       background-image-position: left;
+                       padding-left: 40px;"><br>
+                <p class="contact"><label for="password">Create a password</label></p>
+                <input type="password" id="password" name="password"  placeholder="Password" required="" type="text" style="
+                       background-image:url('images/password.png');
+                       background-repeat:no-repeat;
+                       background-size: 30px;
+                       background-position:0px;
+                       background-image-position: left;
+                       padding-left: 40px;"><br>
+                <p class="contact"><label for="repassword">Confirm your password</label></p>
+                <input type="password" id="password" name="password" required=""  placeholder="Confirm Password" type="text" style="
+                       background-image:url('images/password.png');
+                       background-repeat:no-repeat;
+                       background-size: 30px;
+                       background-position:0px;
+                       background-image-position: left;
+                       padding-left: 40px;"><br>
+                <input class="buttom" name="submit" id="submit" value="Sign me up!" type="submit"> 
+
+            </form>
+
+        </div>
+    </body>
+</html>
